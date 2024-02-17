@@ -1,0 +1,10 @@
+console.log('Welcome to JavaScript');
+console.log('Nice');
+num = 54;
+console.log(num);
+myname = "Rohit";
+console.log(myname);
+console.log(typeof myname);
+console.log(typeof num);
+console.log(4**3);
+console.log(4**10);
