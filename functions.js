@@ -4,3 +4,21 @@ function add(a,b){
 }
 
 add(5,6);
+
+const avg = function(m1 , m2, m3){
+    let avg = (m1 + m2 + m3)/ 3;
+    console.log(avg);
+
+    return avg;
+
+}
+const result = avg(34, 5467, 24);
+console.log(result);
+
+const percentage =(max, obt) => {
+    let per = (obt / max) * 100;
+    return per;
+}
+
+const percent = percentage(300,250);
+console.log(percent);
